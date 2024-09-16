@@ -16,6 +16,11 @@ This is a simple app that will allow you to:
 ## Status of this app
 This is the very first official release, let me know if you find any bugs
 
+## Sponsors:
+<img src="/images/mark_new.png" width="115">
+
+Sponsored by [Aryanpur Tech](https://github.com/AryanpurTech)
+
 ## Credits:
 <img src="/images/mark_new.png" width="115">
 
