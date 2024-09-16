@@ -6,7 +6,7 @@ This is a simple app that will allow you to:
 * Save where you have parked your car
 * Get notifications when your parking is going to expire
 
-<img src="/images/screenshot.png" width="600">
+<img src="/images/screenshot.png" width="400">
 
 ## Why use this app?
 * Privacy oriented - app does not connect to the Internet
