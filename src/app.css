@@ -1,0 +1,65 @@
+.show_time_stats
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.buttom_buttons
+{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
+textarea
+{
+    width: 90%;
+    height: 150px;
+    resize: none;
+}
+input
+{
+    padding: 5px;
+    border-radius: 5px;
+}
+button
+{
+    font-weight: bold;
+    border: none;
+    padding: 8px;
+}
+nav
+{
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 5px;
+    color: white;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+li
+{
+    float: left;
+    text-decoration: none;
+    padding: 10px;
+    display: block ;
+    text-align: ceter;
+}
+
+body
+{
+    margin: 0px;
+}
+
+select
+{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(134, 133, 133);
+    border-radius: 8px;
+    margin: 5px;
+    padding: 8px;
+}
