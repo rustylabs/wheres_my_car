@@ -62,7 +62,7 @@
   {
     const intervalId = setInterval(every_minute, 60000);
     
-    set_location();
+    //set_location();
     
     return () => clearInterval(intervalId);
   })
@@ -190,7 +190,7 @@
       notes: null,
       //run_in_background: false,
     }
-    set_location()
+    //set_location()
   }
 
   let input_values: InputValues;
@@ -209,6 +209,7 @@
       json_handler.delete()
       cancel_reminders()
       edit_mode = true;
+      set_location()
     }
     // If we are launching the app and want to resume
     else
@@ -217,8 +218,10 @@
 
       json_handler.read().then((res) =>
       {
+        // Load json saved data into variables
         if (res != null)
         {
+          // Contains all the json saved data
           const tmp = JSON.parse(res) as InputValues
 
                   
